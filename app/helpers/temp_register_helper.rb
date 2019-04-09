@@ -1,0 +1,2 @@
+module TempRegisterHelper
+end

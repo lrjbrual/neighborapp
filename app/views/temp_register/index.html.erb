@@ -1,0 +1,19 @@
+<h1>TempRegister#index</h1>
+<p>Find me in app/views/temp_register/index.html.erb</p>
+<%= form_for User.new, url: temp_register_index_path do |f| %>
+	Email
+	<%= f.text_field :email, :required => true %> <br>
+	First name
+	<%= f.text_field :firstname, :required => true %> <br>
+	Last name
+	<%= f.text_field :lastname, :required => true %> <br>
+	Address
+	<%= f.text_field :address, :required => true %> <br>
+	Zipcode
+	<%= f.text_field :zipcode, :required => true %> <br>
+	Country
+	<%= f.text_field :country, :required => true %> <br>
+	Phone
+	<%= f.text_field :phone, :required => true %> <br>
+	<%= f.submit 'Create' %>
+<% end %>
