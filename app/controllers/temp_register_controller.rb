@@ -23,7 +23,8 @@ class TempRegisterController < ApplicationController
         :address, 
         :zipcode, 
         :country, 
-        :phone
+        :phone, 
+        :expertise
       )
     end
 end

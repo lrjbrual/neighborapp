@@ -4,4 +4,3 @@
 //= require argon
 //= require argon.min
 //= require activestorage
-//= require_tree .
